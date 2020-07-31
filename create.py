@@ -19,24 +19,7 @@ commands = [f'echo "# {repo.name}" >> README.md',
             'git commit -m "Initial commit"',
             'git push -u origin master']
 
-if sys.argv[2] == "l":
-    try:
-        os.mkdir(_dir)
-        os.chdir(_dir)
-        os.system('git init')
-        os.system(f'echo "# {foldername}" > README.md')
-        os.system('git add README.md')
-        os.system('git commit -m "first commit"')
-
-        print(f'{foldername} created locally')
-        os.system('code .')
-
-
-    except:
-        print(f'{foldername} created! ')
-
-
-else:
+if __name__ == "__main__":
     os.mkdir(_dir)
     os.chdir(_dir)
 
