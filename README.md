@@ -5,6 +5,7 @@ This project will automatically create a new repo at GitHub and initialise it as
 ## pre-setup:
 
 **For Windows OS only**
+
 create env vars (Users) :
 > projects directory as - "ap"
 
@@ -39,6 +40,6 @@ path:
 Command to run the program type
 
 ```bash
-'create <project_name>'
-'create <project_name> <l>'   - only for local initialisation purpose
+'Python create.py <project_name>'
+'Python create.py <project_name> <l>'   - only for local initialisation purpose
 ```
