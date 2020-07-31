@@ -7,9 +7,11 @@ This project will automatically create a new repo at GitHub and initialise it as
 **For Windows OS only**
 create env vars (Users) :
 > projects directory as - "ap"
+
 > Github tocken as      - "gt"
 
 > Get a token here: https://github.com/settings/tokens/new
+
   > Must have repo, user, and delete_repo permissions
 
 ### How to set env vars
