@@ -3,7 +3,7 @@
 This project will automatically create a new repo at GitHub and initialise it as well as locally. Then it'll open the editor to write the code.
 
 
-## setup: 
+## Setup: 
 ```bash
 git clone "https://github.com/suryakantamangaraj/ProjectAutomation.git"
 cd ProjectAutomation
@@ -24,7 +24,7 @@ Command to run the program type
 'Python create.py <project_name> <l>'   - only for local initialisation purpose
 ```
 
-## pre-setup:
+## Pre-setup:
 
 **For Windows OS only**
 
