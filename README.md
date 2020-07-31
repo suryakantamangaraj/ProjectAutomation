@@ -1,6 +1,6 @@
 # Project Automation
 
-This project will automatically create a new repo at GitHub and initialise it as well as locally. Then it'll open the editor to write the code.
+This project will automatically create a new repo at GitHub and initialise it. Then it'll open the editor to write the code.
 
 
 ## Setup: 
@@ -21,7 +21,6 @@ Command to run the program type
 
 ```bash
 'Python create.py <project_name>'
-'Python create.py <project_name> <l>'   - only for local initialisation purpose
 ```
 
 ## Pre-setup:
