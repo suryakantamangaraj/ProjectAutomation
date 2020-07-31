@@ -26,5 +26,5 @@ if __name__ == "__main__":
     for c in commands:
         os.system(c)
 
-    print(f'{foldername} created locally')
+    print("Succesfully created repository {}!".format(foldername))
     os.system('code .')
